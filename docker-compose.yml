@@ -21,7 +21,7 @@ services:
         source: nodered-vol
         target: /data
     environment:
-      - INFLUXDB_TOKEN=lateefattoken
+      - INFLUXDB_TOKEN=<token>
   influxdb:
     container_name: influxdb
     image: registry.gitlab.com/lateefat1/influxdb:latest
